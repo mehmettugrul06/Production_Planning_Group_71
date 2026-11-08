@@ -11,7 +11,7 @@ learning_server <- function(id) {
     output$grafik <- renderPlot({
       b <- -log(input$L) / log(2)
       u <- 1:50
-      plot(u, 100 * u^(-b), type = "l", xlab = "Birim", ylab = "Süre")
+      plot(u, 100 * u^(-b), type = "l", xlab = "Unit", ylab = "Time")
     })
   })
 }
