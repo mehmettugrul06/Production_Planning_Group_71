@@ -1474,9 +1474,6 @@
     }
   },
   "files": {
-    ".RData": {
-      "checksum": "79605d071ca493928a4a57ff986adc99"
-    },
     "app.R": {
       "checksum": "dc0c0738ffb23d10e52d3ab1619372b9"
     },
